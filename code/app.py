@@ -1,11 +1,11 @@
 from chordclass import Intervals
 
-root_note = Intervals()
+root_note = Intervals(note="e")
 
 
 
 
 
 if __name__ =="__main__":
-    print(root_note.main_scale)
-        
+    
+    root_note.chromatic_scale()
